@@ -1,0 +1,17 @@
+#+TITLE: ncRNA Annotation
+#+REVEAL_ROOT: ../
+#+REVEAL_THEME: default
+#+REVEAL_TRANS: concave
+#+REVEAL_TITLE_SLIDE_ATTR: data-background=ml-wordle.jpg
+#+REVEAL_TITLE_SLIDE_ATTR: style="background-color: rgba(1, 1, 1, 0.6)"
+#+OPTIONS: reveal_hlevel:1
+#+OPTIONS: num:nil toc:1
+#+HTML_HEAD: <style> .reveal { text-transform: none !important; } </style>
+
+* Two parts
+  1. Reference-based
+  2. de novo
+* Reference-based
+  1. blast against Rfam
+  2. infernal
+* de novo

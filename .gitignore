@@ -1,0 +1,42 @@
+# Temporary files
+*~
+\#*#
+
+*.py[cod]
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# vi
+.*.swp
+
+#OSX files
+.DS_Store
+
+#config file
+config.py
+config.py[cod]
