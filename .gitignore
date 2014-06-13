@@ -1,42 +1,42 @@
-# Temporary files
-*~
-\#*#
+# Backup files
+*.~
 
+# Byte-compiled / optimized / DLL files
+__pycache__/
 *.py[cod]
 
-# Packages
-*.egg
-*.egg-info
-dist
-build
-eggs
-parts
-bin
-var
-sdist
-develop-eggs
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
 .installed.cfg
-lib
-lib64
-__pycache__
+*.egg
+MANIFEST
 
 # Installer logs
 pip-log.txt
+pip-delete-this-directory.txt
 
 # Unit test / coverage reports
+.tox/
 .coverage
-.tox
+.cache
 nosetests.xml
+coverage.xml
 
 # Translations
 *.mo
 
-# vi
-.*.swp
-
-#OSX files
-.DS_Store
-
-#config file
-config.py
-config.py[cod]
+# Sphinx documentation
+docs/_build/
