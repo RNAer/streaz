@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 # ----------------------------------------------------------------------------
-# Copyright (c) 2013--, scikit-bio development team.
+# Copyright (c) 2014--, streaz development team.
 #
 # Distributed under the terms of the Modified BSD License.
 #
@@ -10,4 +10,3 @@
 
 from numpy.testing import Tester
 test = Tester().test
-

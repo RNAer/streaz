@@ -1,9 +1,21 @@
-import unittest
+#!/usr/bin/env python
 
-import sample
+# ----------------------------------------------------------------------------
+# Copyright (c) 2014--, streaz development team.
+#
+# Distributed under the terms of the Modified BSD License.
+#
+# The full license is in the file COPYING.txt, distributed with this software.
+# ----------------------------------------------------------------------------
+
+from __future__ import absolute_import, division, print_function
+
+from unittest import TestCase, main
 
 
-class TestSimple(unittest.TestCase):
-    
-    def test_failure(self):
-        self.assertTrue(False)
+class FeaturesTest(TestCase):
+    pass
+
+
+if __name__ == "__main__":
+    main()

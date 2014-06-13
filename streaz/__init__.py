@@ -20,25 +20,21 @@ __version__ = "1.0.0-dev"
 # SENSE           SEarch Ncrna Structured Element
 # STREgA 	  STructured Rna Element Annotation
 # STREAm 	  STructured Rna Element Annotation
-# STREAk 	  STructured Rna Element Annotation 
+# STREAk 	  STructured Rna Element Annotation
 title = r"""
-  ____     _____    ____    U _____ u    _       _____  
- / __"| u |_ " _|U |  _"\ u \| ___"|/U  /"\  u  |"_  /u 
-<\___ \/    | |   \| |_) |/  |  _|"   \/ _ \/   U / //  
- u___) |   /| |\   |  _ <    | |___   / ___ \   \/ /_   
- |____/>> u |_|U   |_| \_\   |_____| /_/   \_\  /____|  
-  )(  (__)_// \\_  //   \\_  <<   >>  \\    >>  _//<<,- 
- (__)    (__) (__)(__)  (__)(__) (__)(__)  (__)(__) (_/ 
+  ____     _____    ____    U _____ u    _       _____
+ / __"| u |_ " _|U |  _"\ u \| ___"|/U  /"\  u  |"_  /u
+<\___ \/    | |   \| |_) |/  |  _|"   \/ _ \/   U / //
+ u___) |   /| |\   |  _ <    | |___   / ___ \   \/ /_
+ |____/>> u |_|U   |_| \_\   |_____| /_/   \_\  /____|
+  )(  (__)_// \\_  //   \\_  <<   >>  \\    >>  _//<<,-
+ (__)    (__) (__)(__)  (__)(__) (__)(__)  (__)(__) (_/
 ========== STructrual RNA Element Annotation ==========
 """
 
 art = r"""
 
 """
-
-import os
-here = os.path.dirname(__file__)
-data_path=os.path.join(here, 'data')
 
 if __doc__ is None:
     __doc__ = title + art
