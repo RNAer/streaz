@@ -16,12 +16,13 @@ install:
   - conda create --yes -n env_name python=$PYTHON_VERSION pip numpy=$NUMPY_VERSION scipy matplotlib pandas nose pep8 flake8 Sphinx
   - if [ ${USE_CYTHON} ]; then conda install --yes -n env_name cython; fi
   - source activate env_name
-  - pip install sphinx-bootstrap-theme future
+  - pip install sphinx-bootstrap-theme numpydoc future
   - pip install -e . --no-deps
 script:
   - if [ ${WITH_DOCTEST} ]; then nosetests --with-doctest; else nosetests; fi
   - flake8 streaz setup.py
-  - pushd doc
+  - sphinx-apidoc -F -o doc/api streaz
+  - pushd doc/api
   - make clean
   - make html
   - popd

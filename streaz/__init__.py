@@ -21,15 +21,19 @@ __version__ = "1.0.0-dev"
 # STREgA 	  STructured Rna Element Annotation
 # STREAm 	  STructured Rna Element Annotation
 # STREAk 	  STructured Rna Element Annotation
+
+# the double colons and indentation are for rst literal.
 title = r"""
-  ____     _____    ____    U _____ u    _       _____
- / __"| u |_ " _|U |  _"\ u \| ___"|/U  /"\  u  |"_  /u
-<\___ \/    | |   \| |_) |/  |  _|"   \/ _ \/   U / //
- u___) |   /| |\   |  _ <    | |___   / ___ \   \/ /_
- |____/>> u |_|U   |_| \_\   |_____| /_/   \_\  /____|
-  )(  (__)_// \\_  //   \\_  <<   >>  \\    >>  _//<<,-
- (__)    (__) (__)(__)  (__)(__) (__)(__)  (__)(__) (_/
-========== STructrual RNA Element Annotation ==========
+::
+
+     ____     _____    ____    U _____ u    _       _____
+    / __"| u |_ " _|U |  _"\ u \| ___"|/U  /"\  u  |"_  /u
+   <\___ \/    | |   \| |_) |/  |  _|"   \/ _ \/   U / //
+    u___) |   /| |\   |  _ <    | |___   / ___ \   \/ /_
+    |____/>> u |_|U   |_| \_\   |_____| /_/   \_\  /____|
+     )(  (__)_// \\_  //   \\_  <<   >>  \\    >>  _//<<,-
+    (__)    (__) (__)(__)  (__)(__) (__)(__)  (__)(__) (_/
+   ========== STructrual RNA Element Annotation ==========
 """
 
 art = r"""
