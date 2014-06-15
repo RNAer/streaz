@@ -1,0 +1,17 @@
+streaz.features package
+=======================
+
+Subpackages
+-----------
+
+.. toctree::
+
+    streaz.features.tests
+
+Module contents
+---------------
+
+.. automodule:: streaz.features
+    :members:
+    :undoc-members:
+    :show-inheritance:

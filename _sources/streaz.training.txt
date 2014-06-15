@@ -1,0 +1,10 @@
+streaz.training package
+=======================
+
+Module contents
+---------------
+
+.. automodule:: streaz.training
+    :members:
+    :undoc-members:
+    :show-inheritance:

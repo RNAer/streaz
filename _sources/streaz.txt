@@ -1,0 +1,20 @@
+streaz package
+==============
+
+Subpackages
+-----------
+
+.. toctree::
+
+    streaz.features
+    streaz.models
+    streaz.training
+    streaz.util
+
+Module contents
+---------------
+
+.. automodule:: streaz
+    :members:
+    :undoc-members:
+    :show-inheritance:
